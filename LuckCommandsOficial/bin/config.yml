@@ -1,0 +1,4 @@
+#Ativa a chance de rolar os comandos quebrando blocos.
+AtivarComandosBlock: true
+#Ativa a chance de rolar os comandos matando entidades .
+AtivarComandosEntity: true

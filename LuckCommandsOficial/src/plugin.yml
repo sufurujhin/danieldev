@@ -1,0 +1,8 @@
+name: LuckCommands
+version: 1.0
+api-version: 1.13
+main: danieldev.main.LuckMain
+commands:
+  luck:
+    description: Ver comandos do plugin LuckCommands.
+    aliases: []

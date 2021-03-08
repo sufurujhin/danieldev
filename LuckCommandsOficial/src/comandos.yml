@@ -1,0 +1,54 @@
+BlockBreak:
+  ##############################################################################################
+  #CONFIGURAÇÃO DE BLOCO INDIVIDUAL
+  #Acesse o site para id dos blocks, apenas versão 1.13+
+  # https://www.digminecraft.com/lists/item_id_list_pc.php
+    # id do bloco
+    # ==
+    # \/
+  acacia_log:
+  #Note que -> = refere-se a um separador logico. para não mandar mensagem nenhuma, escreva (nullo) na mesangem para o jogador e para o global 
+  #kit notch @player (COMANDO EXECUTADO) luckcommandos.break.tier5(PERMISSAO DO COMANDO)
+  #aqui fica a mensamgem ao jogador (exemplo comando kit notch) {MENSAGEM MANDADA AO JOGADOR} = nullo (NÃO MANDA MENSAGEM GLOBAL)
+  #[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR) (MANDA UMA MENSAGEM GLOBAL)
+    comando:
+      - kit notch @player = 0.5 = luckcommandos.break.tier5 = &aAqui fica a mensamgem ao jogador (exemplo comando kit notch) = nullo
+      - kit color @player = 0.25 = luckcommandos.break.tier5 = &aAqui fica a mensamgem ao jogador = &a[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR)
+  granite:
+    comando:
+      - kit notch @player = 0.5 = luckcommandos.break.tier5 = &aAqui fica a mensamgem ao jogador (exemplo comando kit notch) = nullo
+      - kit color @player = 0.25 = luckcommandos.break.tier5 = &aAqui fica a mensamgem ao jogador = &a[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR)
+  stone:
+    comando:
+      - kit notch @player = 0.5 = luckcommandos.break.tier5 = &aAqui fica a mensamgem ao jogador (exemplo comando kit notch) = nullo
+      - kit color @player = 0.25 = luckcommandos.break.tier5 = &aAqui fica a mensamgem ao jogador = &a[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR)
+  iron_ore:
+    comando:
+      - kit notch @player = 0.5 = luckcommandos.break.tier5 = &aAqui fica a mensamgem ao jogador (exemplo comando kit notch) = nullo
+      - kit color @player = 0.25 = luckcommandos.break.tier5 = &aAqui fica a mensamgem ao jogador = &a[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR)
+KillEntity:
+#Acesse o site para id das entidades, apenas versão 1.13+
+  # https://www.digminecraft.com/lists/entity_list_pc.php
+  # id do bloco, abaixo da id está chance de drop (1.0 = 1 em 1 de chance de executar o comando,  0.0001 = 1 em 10.000);
+  # ==
+  # \/
+  zombie:
+  #Note que -> = refere-se a um separador logico. para não mandar mensagem nenhuma, escreva (nullo) na mesangem para o jogador e para o global 
+  #kit notch @player (COMANDO EXECUTADO) luckcommandos.break.tier5(PERMISSAO DO COMANDO)
+  #aqui fica a mensamgem ao jogador (exemplo comando kit notch) {MENSAGEM MANDADA AO JOGADOR} = nullo (NÃO MANDA MENSAGEM GLOBAL)
+  #[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR) (MANDA UMA MENSAGEM GLOBAL)
+    comando:
+      - kit notch @player = 0.5 = luckcommandos.entidade.tier5 = &aAqui fica a mensamgem ao jogador (exemplo comando kit notch) = nullo
+      - kit color @player = 0.25 = luckcommandos.entidade.tier5 = &aAqui fica a mensamgem ao jogador = &a[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR)
+  skeleton:
+    comando:
+      - kit notch @player = 0.5 = luckcommandos.entidade.tier5 = &aAqui fica a mensamgem ao jogador (exemplo comando kit notch) = nullo
+      - kit color @player = 0.25 = luckcommandos.entidade.tier5 = &aAqui fica a mensamgem ao jogador = &a[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR)
+  wither_skeleton:
+    comando:
+      - kit notch @player = 0.5 = luckcommandos.entidade.tier5 = &aAqui fica a mensamgem ao jogador (exemplo comando kit notch) = nullo
+      - kit color @player = 0.25 = luckcommandos.entidade.tier5 = &aAqui fica a mensamgem ao jogador = &a[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR)
+  vex:
+    comando:
+      - kit notch @player = 0.5 = luckcommandos.entidade.tier5 = &aAqui fica a mensamgem ao jogador (exemplo comando kit notch) = nullo
+      - kit color @player = 0.25 = luckcommandos.entidade.tier5 = &aAqui fica a mensamgem ao jogador = &a[CONSOLE]Aqui fica a mensagem Global(exemplo comando kit COLOR)
